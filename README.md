@@ -1,0 +1,2 @@
+# Quantum-Enhanced-Graph-Learning-for-Molecular-Design-in-Biomaterials
+Build a hybrid classical–quantum pipeline where a GNN encoder learns molecular structure features and a quantum variational head predicts (1) electronic bandgap (regression; we’ll use HOMO–LUMO gap as a proxy) and (2) toxicity risk (classification). The system supports conditional generation hooks later, but the MVP focuses on predictive modeling.
