@@ -1,0 +1,7 @@
+seed: 42
+max_molecules: 500
+num_features: 8
+reps: 2
+entanglement: linear
+outer_folds: 3
+C: 1.0

@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/qegl/__init__.py
+src/qegl/featurize.py
+src/qegl/metrics.py
+src/qegl/utils.py
+src/qegl/data/qm9.py
+src/qegl/data/tox21.py
+src/qegl/models/classical_baselines.py
+src/qegl/models/cnn_baseline.py
+src/qegl/models/gnn_baselines.py
+src/qegl/quantum/encoders.py
+src/qegl/quantum/qkernels.py
+src/qegl_biomaterials.egg-info/PKG-INFO
+src/qegl_biomaterials.egg-info/SOURCES.txt
+src/qegl_biomaterials.egg-info/dependency_links.txt
+src/qegl_biomaterials.egg-info/top_level.txt

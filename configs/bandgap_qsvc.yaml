@@ -1,0 +1,9 @@
+seed: 42
+max_molecules: null       
+num_features: 4           
+reps: 1                  
+entanglement: linear
+outer_folds: 3            
+alpha: 0.1              
+kernel: "rbf"
+
