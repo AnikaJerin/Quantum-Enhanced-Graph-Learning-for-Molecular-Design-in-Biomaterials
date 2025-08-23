@@ -4,11 +4,17 @@ src/qegl/__init__.py
 src/qegl/featurize.py
 src/qegl/metrics.py
 src/qegl/utils.py
+src/qegl/data/__init__.py
 src/qegl/data/qm9.py
 src/qegl/data/tox21.py
+src/qegl/models/__init__.py
 src/qegl/models/classical_baselines.py
+src/qegl/models/classical_head.py
 src/qegl/models/cnn_baseline.py
 src/qegl/models/gnn_baselines.py
+src/qegl/models/gnn_encoder.py
+src/qegl/models/hybrid_model.py
+src/qegl/models/quantum_head_qiskit.py
 src/qegl/quantum/encoders.py
 src/qegl/quantum/qkernels.py
 src/qegl_biomaterials.egg-info/PKG-INFO

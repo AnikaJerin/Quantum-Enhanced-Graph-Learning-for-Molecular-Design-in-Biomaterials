@@ -1,0 +1,20 @@
+# Core scientific libraries
+numpy==1.23.0
+pandas>=1.5
+scikit-learn==1.7.1
+matplotlib>=3.7
+tqdm>=4.67.1
+PyYAML==6.0.2
+pydantic==2.11.7
+rdkit-pypi==2022.9.5
+
+# Quantum libraries
+qiskit==2.1.2
+qiskit-aer==0.17.1
+qiskit-machine-learning==0.8.2
+qiskit-ibm-runtime==0.30.0
+
+# Deep learning libraries
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0

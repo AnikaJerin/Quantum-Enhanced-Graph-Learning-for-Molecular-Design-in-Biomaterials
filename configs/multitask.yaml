@@ -1,0 +1,27 @@
+seed: 42
+outdir: results_multitask
+
+# data
+smiles_col: smiles
+n_folds: 5
+batch_size: 16
+
+# gnn
+hidden: 128
+layers: 3
+dropout: 0.1
+
+# quantum head
+n_qubits: 6           # keep small on CPU; try 4–8
+reps_feature: 1
+reps_ansatz: 2
+entanglement: linear
+quantum_backend: aer_simulator_statevector  # kept for future use
+
+# training
+lr: 0.002
+weight_decay: 1e-5
+epochs: 120
+reg_weight: 1.0
+clf_weight: 1.0
+use_cuda: true
