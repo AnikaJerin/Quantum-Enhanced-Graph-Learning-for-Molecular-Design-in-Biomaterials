@@ -441,7 +441,6 @@ def run_fold(df_path: str, cfg: dict, fold_idx: int, train_idx, val_idx, task: s
         if "auc" in val_metrics: msg += f"  AUC={val_metrics['auc']:.4f}"
         print(msg)
 
-
     # Save best metrics
     os.makedirs(outdir, exist_ok=True)
     out_json = os.path.join(outdir, f"fold_{fold_idx:02d}_metrics.json")
